@@ -36,7 +36,6 @@ namespace XlsxImport
 
                 var dataSet = reader.AsDataSet(conf);
                 var dt = dataSet.Tables[0];
-                ValidateInput(dt);
 
                 for (int i = 1; i < dt.Rows.Count; i++)
                 {
@@ -57,16 +56,5 @@ namespace XlsxImport
             return data;
         }
 
-        private void ValidateInput(DataTable dt)
-        {
-            var header1 = dt.Rows[0][0].ToString();
-            var header2 = dt.Rows[0][1].ToString();
-            var header3 = dt.Rows[0][2].ToString();
-
-            if (header1 != "store" || header2 != "docNumber" || header3 != "docDate")
-            {
-                throw new Exception("Загружаемый файл не соответсвует требованиям");
-            }
-        }
     }
 }
