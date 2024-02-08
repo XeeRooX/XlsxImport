@@ -15,8 +15,12 @@
 ### Результаты задания 1
 ![image](https://github.com/XeeRooX/XlsxImport/assets/91987012/82a73b14-71fa-4cd9-b4dd-d8e1fcf2fad4)
 ### Результаты задания 2
-Результат запроса 1
-![image](https://github.com/XeeRooX/XlsxImport/assets/91987012/07912767-ccdd-432e-bcb3-a117da944e33)
-Результат запроса 2 хранится в файле result2.csv
-Результат запроса 3
+Результат запроса 1  
+
+![image](https://github.com/XeeRooX/XlsxImport/assets/91987012/07912767-ccdd-432e-bcb3-a117da944e33)  
+
+Результат запроса 2 хранится в файле result2.csv  
+
+Результат запроса 3  
+
 ![image](https://github.com/XeeRooX/XlsxImport/assets/91987012/76b9812c-9467-44d5-839a-4c64b14124b0)
