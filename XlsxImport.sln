@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XlsxImport", "XlsxImport\Xl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{E5C12BFC-3162-4D0D-AD59-E4DA615450D7}"
 	ProjectSection(SolutionItems) = preProject
+		exercise1.sql = exercise1.sql
+		exercise2.sql = exercise2.sql
 		README.md = README.md
 	EndProjectSection
 EndProject
